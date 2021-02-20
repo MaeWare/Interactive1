@@ -9,7 +9,21 @@ p{
 }
 p:hover {
 	text-transform: uppercase;
+	background: yellow;
+	letter-spacing: 2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .camera {
 	position: relative;
 	width: 800px;
@@ -17,8 +31,8 @@ p:hover {
 	background: black;
 }
 .square {
-	width:100px;
-	height:100px;
+	width: 100px;
+	height: 100px;
 	background: grey;
 	position: absolute;
 	top: 40px;
