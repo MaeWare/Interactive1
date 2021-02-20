@@ -33,38 +33,111 @@ body{
 	top: 200px;
 	left: 250px;
 } 
-	<br>
-	<br>
-	<br>
-.camera {
+	* {
+	box-sizing: border-box;
+}
+
+/* type */
+
+body{
+	font-family: 'Arial', sans-serif;
+}
+
+/* text */
+
+p {
+	font-size: 22px;
+}
+
+/* try uncommenting below to see text changes on hover */
+
+/*p:hover {
+	letter-spacing: 2px;
+}*/
+
+
+/* 
+
+CSS shapes 
+https://css-tricks.com/the-shapes-of-css/
+
+*/
+
+.shape{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
 	position: relative;
-	width: 800px;
-	height: 600px;
+}
+
+/* try uncommenting below to see blur on hover */
+
+/*.shape:hover div {
+	filter: blur(10px);
+} */
+
+/* circles */
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
 	background: black;
 }
-.square {
-	width:100px;
-	height:100px;
-	background: grey;
-	position: absolute;
-	top: 40px;
-	left: 40px;
+
+.oval {
+	width: 300px;
+	height: 100px;
+	background: black;
+	border-radius: 150px / 50px;
 }
-.circle {
-	width: 350px;
-	height: 350px;
-	border-radius: 250px;
-	background: grey;
-	position: absolute;
-	top: 150px;
-	left: 200px;
+
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: black;
+	border-radius: 150px / 20px;
 }
-.circle2 {
-	width: 250px;
-	height: 250px;
-	border-radius: 150px;
-	background: white;
+
+/* square */
+
+.rect {
+	width: 40px;
+	height: 437px;
+	background: black;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+
+/* stars */
+
+.star {
+	background: black;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+
+	transform-origin: top left;
+	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+}
+
+.star:before,
+.star:after {
+	content: "";
 	position: absolute;
-	top: 200px;
-	left: 250px;
-} 
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: black;
+}
+
+.star:before {
+	transform: rotate(30deg);
+}
+
+.star:after {
+	transform: rotate(60deg);
+}
