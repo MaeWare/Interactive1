@@ -18,18 +18,18 @@ body{
 .circle {
 	width: 350px;
 	height: 350px;
-	border-radius: 250px
+	border-radius: 250px;
 	background: grey;
 	position: absolute;
-	top: 150px
+	top: 150px;
 	left: 200px;
 }
 .circle2 {
 	width: 250px;
 	height: 250px;
-	border-radius: 150px
-	background: yellow;
+	border-radius: 150px;
+	background: white;
 	position: absolute;
 	top: 200px;
-	left: 300px;
+	left: 250px;
 } 

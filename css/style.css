@@ -1,0 +1,38 @@
+body { 
+	background: pink; 
+	color: blue;
+	font-size: 40px
+}
+.camera {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	background: black;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background: grey;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.circle {
+	width: 350px;
+	height: 350px;
+	background: grey;
+	position: absolute;
+	top: 100px
+	left: 200px;
+}
+.lense {
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+} 
+p {
+	background: white;
+}
