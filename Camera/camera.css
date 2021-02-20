@@ -30,9 +30,13 @@ p:hover {
 	position: absolute;
 	top: 40px;
 	left: 40px;
-
-
 }
+
+.square:hover {
+	transform: rotate(90deg);
+	background: yellow;
+}
+
 .circle {
 	width: 350px;
 	height: 350px;
