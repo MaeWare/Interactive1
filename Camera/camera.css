@@ -33,7 +33,8 @@ p:hover {
 }
 
 .square:hover {
-	transform: rotate(90deg);
+	transform: rotate(45deg);
+	filter: blur(10px);
 	background: yellow;
 }
 
