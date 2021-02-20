@@ -1,7 +1,5 @@
-body { 
-	background: pink; 
-	color: blue;
-	font-size: 40px
+body{
+	
 }
 .camera {
 	position: relative;
@@ -10,8 +8,8 @@ body {
 	background: black;
 }
 .square {
-	width: 100px;
-	height: 100px;
+	width:100px;
+	height:100px;
 	background: grey;
 	position: absolute;
 	top: 40px;
@@ -20,18 +18,20 @@ body {
 .circle {
 	width: 350px;
 	height: 350px;
+	border-radius: 250px;
 	background: grey;
 	position: absolute;
-	top: 100px
+	top: 150px;
 	left: 200px;
 }
-.lense {
+.circle2 {
 	width: 250px;
 	height: 250px;
-	background: yellow;
+	border-radius: 150px;
+	background: white;
 	position: absolute;
 	top: 200px;
-	left: 300px;
+	left: 250px;
 } 
 p {
 	background: white;
