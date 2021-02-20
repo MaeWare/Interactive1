@@ -1,5 +1,14 @@
 body{
-	
+	font-family: 'Arial', sans-serif;
+}
+
+<p>click</p>
+
+p{
+	font-size: 20px;
+}
+p:hover {
+	text-transform: uppercase;
 }
 .camera {
 	position: relative;
@@ -14,6 +23,8 @@ body{
 	position: absolute;
 	top: 40px;
 	left: 40px;
+
+
 }
 .circle {
 	width: 350px;
