@@ -59,16 +59,19 @@ p:hover {
 	left: 250px;
 } 
 
-.circle3 {
-	width: 20px;
-	height: 20px;
-	border-radius: 20px;
+.fade-in {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
 	background: grey;
 	position: absolute;
 	top: 300px;
 	left: 350px;
+opacity: 50%;
+transition:opacity 0.8s
 }
 
-.circle3:hover {
-	transform: scale(35px);
+.fade-in:hover {
+opacity:100%;
+transition:opacity 0.5s
 }
