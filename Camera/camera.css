@@ -50,7 +50,7 @@ p:hover {
 }
 
 .square2:hover {
-	transform: translateX(200px);
+	transform: translateX(100px);
 }
 .circle {
 	width: 350px;
