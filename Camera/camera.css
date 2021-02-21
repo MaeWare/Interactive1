@@ -65,7 +65,12 @@ p:hover {
 	border-radius: 100px;
 	background: grey;
 	position: absolute;
-	top: 250px;
-	left: 250px;
-	opacity: 50%;
+	top: 225px;
+	left: 275px;
+	opacity: 10%;
+}
+
+.circle3:hover {
+	opacity: 100%;
+	transition: opacity 0.5s
 }
