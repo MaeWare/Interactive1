@@ -56,3 +56,15 @@ p:hover {
 	top: 200px;
 	left: 250px;
 } 
+
+.square2 {
+	width: 200px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	left: 40px;
+}
+
+.square2:hover {
+	transform: translateX(150px);
+}
