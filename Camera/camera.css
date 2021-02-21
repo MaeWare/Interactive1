@@ -62,7 +62,7 @@ p:hover {
 .cirlce3 {
 	width: 50px;
 	height: 50px;
-	border-radius: 50px;
+	border-radius: 100px;
 	background: yellow;
 	position: absolute;
 	top: 250px;
