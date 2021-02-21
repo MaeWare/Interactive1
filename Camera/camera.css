@@ -51,6 +51,7 @@ p:hover {
 
 .square2:hover {
 	transform: translateX(100px);
+	background: green;
 }
 .circle {
 	width: 350px;
