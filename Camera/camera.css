@@ -41,12 +41,16 @@ p:hover {
 }
 
 .square2 {
-	width: 100px;
-	height: 40px;
+	width: 50px;
+	height: 20px;
 	background: grey;
 	position: absolute;
 	top: 40px;
 	left: 170px;
+}
+
+.square2:hover {
+	transform: translateX(200px);
 }
 .circle {
 	width: 350px;
