@@ -24,7 +24,7 @@ p:hover {
 	background: black;
 }
 
-.camer:hover {
+.camera:hover {
 	transform: translateX(100px);
 }
 .square {
