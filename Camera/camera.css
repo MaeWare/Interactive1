@@ -40,6 +40,14 @@ p:hover {
 	background: yellow;
 }
 
+.square2 {
+	width: 100px;
+	height: 40px;
+	background: grey;
+	position: absolute;
+	top: 40px;
+	left: 170px;
+}
 .circle {
 	width: 350px;
 	height: 350px;
