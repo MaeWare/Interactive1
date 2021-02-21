@@ -24,9 +24,7 @@ p:hover {
 	background: black;
 }
 
-.camera:hover {
-	transform: translateZ(100px);
-}
+
 .square {
 	width: 100px;
 	height: 100px;
@@ -69,3 +67,6 @@ p:hover {
 	left: 40px;
 }
 
+.square2:hover {
+	transform: rotate(90deg);
+}
