@@ -59,12 +59,13 @@ p:hover {
 	left: 250px;
 } 
 
-.cirlce3 {
+.circle3 {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	background: yellow;
+	background: grey;
 	position: absolute;
 	top: 250px;
 	left: 250px;
+	opacity: 50%;
 }
