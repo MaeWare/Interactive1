@@ -1,6 +1,13 @@
 * {
 	box-sizing: border-box;
 }
+.bounding-box {
+	position: relative;
+	width: 150px;
+	height: 225px;
+	background: lightgrey;
+	display: inline-block;
+}
 /* top line */
 .top {
 	position: relative;
@@ -96,3 +103,7 @@
 	background: black;
 	top: -150px;
 }
+
+/*.bounding-box:hover ~top-left {
+	visibility: hidden;
+}*/
