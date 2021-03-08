@@ -1,7 +1,17 @@
 * {
 	box-sizing: border-box;
 }
-.bounding-box {
+
+/*.word {
+	position: relative;
+	width: 400px;
+	height: 225px;
+	background: lightblue;
+	display: inline-block;
+}
+*/
+
+.letter-a {
 	position: relative;
 	width: 150px;
 	height: 225px;
@@ -9,12 +19,12 @@
 	display: inline-block;
 }
 /* top line */
-.top {
-	position: relative;
-	width: 100px;
-	height: 25px;
-	left: 25px;
-	background: black;
+	.top {
+		position: relative;
+		width: 100px;
+		height: 25px;
+		left: 25px;
+		background: black;
 }
 /* top side lines */
 .top-left {
@@ -104,6 +114,252 @@
 	top: -150px;
 }
 
+.letter-a:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-a:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-a:hover .toggle {
+	opacity: .2%;
+}
+.letter-b {
+	position: relative;
+	width: 150px;
+	height: 225px;
+	background: lightgrey;
+	display: inline-block;
+}
+/* top line */
+	.top {
+		position: relative;
+		width: 100px;
+		height: 25px;
+		left: 25px;
+		background: black;
+}
+/* top side lines */
+.top-left {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+}
+
+.top-right {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	left: 125px;
+	top: -50px;
+}
+/* the one by one squares */
+.small-tleft {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 25px;
+	top: -50px;
+}
+.small-tright {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 100px;
+	top: -75px;
+}
+
+/* middle line*/
+.middle {
+	position: relative;
+	width: 50px;
+	height: 25px;
+	left: 50px;
+	background: black;
+	top: -75px;
+}
+/* bottom one by one squares */
+.small-bleft {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 25px;
+	top: -75px;
+}
+
+.small-bright {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 100px;
+	top: -100px;
+}
+
+/* bottom side lines*/
+.bottom-left {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	top: -100px;
+}
+.bottom-right {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	left: 125px;
+	top: -150px;
+}
+
+.bottom {
+	position: relative;
+	width: 100px;
+	height: 25px;
+	left: 25px;
+	background: black;
+	top: -150px;
+}
+
+.letter-b:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-b:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-b:hover .toggle {
+	opacity: .2%;
+
+}
+
+
+.letter-c {
+	position: relative;
+	width: 150px;
+	height: 225px;
+	background: lightgrey;
+	display: inline-block;
+}
+/* top line */
+.top {
+		position: relative;
+		width: 100px;
+		height: 25px;
+		left: 25px;
+		background: black;
+}
+/* top side lines */
+.top-left {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+}
+
+.top-right {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	left: 125px;
+	top: -50px;
+}
+/* the one by one squares */
+.small-tleft {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 25px;
+	top: -50px;
+}
+.small-tright {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 100px;
+	top: -75px;
+}
+
+/* middle line*/
+.middle {
+	position: relative;
+	width: 50px;
+	height: 25px;
+	left: 50px;
+	background: black;
+	top: -75px;
+}
+/* bottom one by one squares */
+.small-bleft {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 25px;
+	top: -75px;
+}
+
+.small-bright {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	background: black;
+	left: 100px;
+	top: -100px;
+}
+
+/* bottom side lines*/
+.bottom-left {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	top: -100px;
+}
+.bottom-right {
+	position: relative;
+	width: 25px;
+	height: 50px;
+	background: black;
+	left: 125px;
+	top: -150px;
+}
+
+.bottom {
+	position: relative;
+	width: 100px;
+	height: 25px;
+	left: 25px;
+	background: black;
+	top: -150px;
+}
+
+.hidden {
+	position: relative;
+	width: 50px;
+	height: 25px;
+	left: 25px;
+	background: black;
+	top: -150px;
+}
+
+.letter-c:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-c:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-c:hover .toggle {
+	opacity: .2%;
+
+}
 /*.bounding-box:hover ~top-left {
 	visibility: hidden;
 }*/
