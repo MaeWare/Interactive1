@@ -332,23 +332,24 @@
 	top: -150px;
 }
 
-.bottom {
+.hidden {
+	position: relative;
+	width: 50px;
+	height: 25px;
+	left: 50px;
+	background: black;
+	top: -150px;
+}
+
+.bottom-t {
 	position: relative;
 	width: 100px;
 	height: 25px;
 	left: 25px;
 	background: black;
-	top: -150px;
+	top: -175px;
 }
 
-.hidden {
-	position: relative;
-	width: 50px;
-	height: 25px;
-	left: 25px;
-	background: black;
-	top: -150px;
-}
 
 .letter-c:hover ~.toggle {
 	opacity: .2%;
