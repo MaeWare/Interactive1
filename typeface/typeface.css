@@ -362,7 +362,140 @@
 
 }
 
-.letter-d {
+/*
+/*/*.letter-d {
+	position: relative;
+	width: 150px;
+	height: 225px;
+	background: lightgrey;
+	display: inline-block;
+}
+/* top line */
+	.top {
+		position: relative;
+		width: 100px;
+		height: 25px;
+		left: 25px;
+		background: black;
+}
+/* top side lines */
+	.top-left {
+		position: relative;
+		width: 25px;
+		height: 50px;
+		background: black;
+
+	}
+
+	.c-top-right {
+		position: relative;
+		width: 25px;
+		height: 50px;
+		background: black;
+		left: 125px;
+		top: -50px;
+	}
+
+	.hiddentop-right {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 125px;
+		top: -100px;
+	}
+/* the one by one squares */
+	.c-small-tleft {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 25px;
+		top: -75px;
+	}
+	.c-small-tright {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 100px;
+		top: -100px;
+	}
+
+/* middle line*/
+	.c-middle {
+		position: relative;
+		width: 50px;
+		height: 25px;
+		left: 50px;
+		background: black;
+		top: -100px;
+	}
+/* bottom one by one squares */
+	.c-small-bleft {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 25px;
+		top: -100px;
+	}
+
+	.c-small-bright {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 100px;
+		top: -125px;
+	}
+
+/* bottom side lines*/
+	.c-bottom-left {
+		position: relative;
+		width: 25px;
+		height: 50px;
+		background: black;
+		top: -125px;
+	}
+	.c-bottom-right {
+		position: relative;
+		width: 25px;
+		height: 50px;
+		background: black;
+		left: 125px;
+		top: -175px;
+	}
+
+	.c-bottom {
+		position: relative;
+		width: 100px;
+		height: 25px;
+		left: 25px;
+		background: black;
+		top: -175px;
+	}
+
+	.hidebottom-right {
+		position: relative;
+		width: 25px;
+		height: 25px;
+		background: black;
+		left: 125px;
+		top: -225px;
+	}
+
+.letter-d:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-d:hover ~.toggle {
+	opacity: .2%;
+}
+.letter-d:hover .toggle {
+	opacity: .2%;
+}
+
+.letter-e {
 	position: relative;
 	width: 150px;
 	height: 225px;
@@ -392,15 +525,6 @@
 	background: black;
 	left: 125px;
 	top: -50px;
-}
-
-.hiddentop-right {
-	position: relative;
-	width: 25px;
-	height: 25px;
-	background: black;
-	left: 125px;
-	top: -75px;
 }
 /* the one by one squares */
 .small-tleft {
@@ -474,13 +598,13 @@
 	top: -150px;
 }
 
-.letter-d:hover ~.toggle {
+.letter-e:hover ~.toggle {
 	opacity: .2%;
 }
-.letter-d:hover ~.toggle {
+.letter-e:hover ~.toggle {
 	opacity: .2%;
 }
-.letter-d:hover .toggle {
+.letter-e:hover .toggle {
 	opacity: .2%;
 }
 /*.bounding-box:hover ~top-left {
