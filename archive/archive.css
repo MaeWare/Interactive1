@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+
+
+}
+.rectangle1 {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	margin:10px;
+	background: #E0AC5A;
+	border-radius: 25px;
+	top:420px;
+}
+
+.rectangle2 {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	margin:10px;
+	background: #E0AC5A;
+	border-radius: 25px;
+	top:420px;
+	left: 270px;
+}
+
+.rectangle3 {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	margin:10px;
+	background: #E0AC5A;
+	border-radius: 25px;
+	top:420px;
+	left: 540px;
+}
