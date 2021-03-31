@@ -14,6 +14,8 @@
 	top:420px;
 }
 
+
+
 .rectangle2 {
 	position: absolute;
 	width: 200px;
@@ -35,3 +37,15 @@
 	top:420px;
 	left: 540px;
 }
+
+.rectangle4 {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	margin:10px;
+	background: #E0AC5A;
+	border-radius: 25px;
+	top:420px;
+	left: 810px;
+}
+
