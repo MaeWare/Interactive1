@@ -1,0 +1,100 @@
+
+
+@font-face {
+	font-family: 'Abril Fatface', cursive;
+	src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+}
+
+.sad {
+	width: 350px;
+	height: 350px;
+	background: #70AAB5;
+	position: absolute;
+	top: 200px;
+}
+
+.happy {
+	width: 350px;
+	height: 350px;
+	background: #FBDCAF;
+	position: absolute;
+	top: 200px;
+	left:350px;
+}
+
+.mad {
+	width: 350px;
+	height: 350px;
+	background: #CB331D;
+	position: absolute;
+	top: 200px;
+	left:700px;
+}
+
+.peaceful {
+	width: 350px;
+	height: 350px;
+	background: #EFC5EF;
+	position: absolute;
+	top: 700px;
+	
+}
+
+.powerful {
+	width: 350px;
+	height: 350px;
+	background: #FFA756;
+	position: absolute;
+	top: 700px;
+	left:350px;
+}
+
+.scared {
+	width: 350px;
+	height: 350px;
+	background: #84BF9A;
+	position: absolute;
+	top: 700px;
+	left:700px;
+}
+/*h1 { font-family: "Abril Fatface"; 
+font-size: 20px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 22px; 
+} 
+
+h3 { font-family: "Abril Fatface"; 
+font-size: 14px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bold; 
+line-height: 15px; 
+} 
+
+p { font-family: "Abril Fatface"; 
+font-size: 14px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 20px; 
+} 
+
+blockquote { 
+font-family: "Abril Fatface"; 
+font-size: 21px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 30px;
+ } 
+
+ pre { 
+ font-family: "Abril Fatface"; 
+ font-size: 13px; 
+ font-style: normal; 
+ font-variant: normal; 
+ font-weight: 400; 
+ line-height: 18px; 
+}*/
