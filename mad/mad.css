@@ -1,0 +1,91 @@
+@font-face {
+   font-family: "Abril Fatface";
+   src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+}
+
+body {
+   font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.date-label {
+	font-size:18px;
+	grid-area:"date-label";
+}
+
+.container {
+	width:100%;
+	align-items:center;
+	justify-content: start;
+	box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+	padding:0 10px;
+}
+
+.dates {
+	grid-area:"dates";
+}
+
+.title {
+	grid-area:"title";
+}
+
+.accordian-item {
+	width:100%;
+	transition:0.3s;
+}
+
+.accordian-item:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.accordian-item.active h2 {
+	color:#FBEAD0;
+}
+
+.accordian-link {
+	text-decoration:none;
+	width:100%;
+	color:black;
+	
+}
+
+.article {
+	grid-template-columns:250px 1000px;
+	grid-template-areas:"dates title";
+	display:grid;
+}
+
+.panel {
+	overflow:hidden;
+	opacity:0;
+	max-height:0;
+	position:relative;
+	display:flex;
+	width:auto;
+	justify-content:space-between;
+	transition:.5s;
+	flex-direction:row;
+
+}	
+
+.panel.show {
+	opacity:1;
+	max-height:1000px;
+	padding:0 8px 8px;
+	margin:0 0 4px;
+	padding:0 0px 15px;
+
+}
+
+.image {
+	display: block;
+  	max-width:100%;
+ 	max-height:350px;
+  	width: auto;
+  	height: auto;
+}
+
+
+.row-item {
+	display:inline-block;
+
+}
+
