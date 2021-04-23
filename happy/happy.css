@@ -1,8 +1,11 @@
 @font-face {
-	font-family: "Abril Fatface", "Helvetica Neue", Helvetica, sans-serif;
-	src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+   font-family: "Abril Fatface";
+   src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
 }
 
+body {
+   font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 /*.container-label {
 	width:100%;
 	align-items:center;
