@@ -61,44 +61,33 @@ body {
 	top: 700px;
 	left:700px;
 }
-/*h1 { font-family: "Abril Fatface"; 
-font-size: 20px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: 400; 
-line-height: 22px; 
-} 
 
-h3 { font-family: "Abril Fatface"; 
-font-size: 14px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: bold; 
-line-height: 15px; 
-} 
+button{
+	font-size: 1rem;
+	
+	border: 2px solid var(--accent-color);
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
 
-p { font-family: "Abril Fatface"; 
-font-size: 14px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: 400; 
-line-height: 20px; 
-} 
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
+}
 
-blockquote { 
-font-family: "Abril Fatface"; 
-font-size: 21px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: 400; 
-line-height: 30px;
- } 
 
- pre { 
- font-family: "Abril Fatface"; 
- font-size: 13px; 
- font-style: normal; 
- font-variant: normal; 
- font-weight: 400; 
- line-height: 18px; 
-}*/
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+
+}
+
+body.darkmode button{
+	color: white;
+}
