@@ -40,7 +40,7 @@ body {
 }
 
 .accordian-item.active h2 {
-	color:#878670;
+	color:#4A4E38;
 }
 
 .accordian-link {
@@ -93,3 +93,32 @@ body {
 
 }
 
+button{
+	font-size: 1rem;
+	
+	border: 2px solid var(--accent-color);
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
+}
+
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background:#87B9D9;
+	color: white;
+
+	/*	redefine a CSS variable */
+
+}
+
+body.darkmode button{
+	color: white;
+}
