@@ -1,10 +1,10 @@
 @font-face {
-   font-family: "Abril Fatface";
-   src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+   font-family: 'Indie Flower', cursive;
+   src: url("../fonts/IndieFlower-Regular.ttf") format("truetype");
 }
 
 body {
-   font-family: "Abril Fatface", Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-family: 'Indie Flower', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 /*.container-label {
 	width:100%;
@@ -32,7 +32,7 @@ body {
 	width:100%;
 	align-items:center;
 	justify-content: start;
-	box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+	/*box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);*/
 	padding:0 10px;
 }
 
