@@ -117,32 +117,32 @@ body {
 
 }
 
-/*.banner-arrow-eraser {
-	position:absolute;
-	bottom:0px;
-	width:0;
-	height:0;
-	border-left: 100px solid transparent;
-  	border-right: 100px solid transparent;
-  	border-bottom: 50px solid #E0AC5A;
-}*/
+button{
+	font-size: 1rem;
+	
+	border: 2px solid var(--accent-color);
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
 
-/*.banner:hover {
-	height:300px;
+button:hover{
+	background: rgb(200 200 200);
+	cursor: pointer;
+}
+
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background:#87B9D9;
+	color: white;
+
+	/*	redefine a CSS variable */
 
 }
 
-.banner-panel {
-	opacity:0;
-	padding:24px 8px 8px;
-	transition:.3s;
-	position:relative;
-	display:flex;
-	justify-content:start;
-	width:auto;
+body.darkmode button{
+	color: white;
 }
-
-.banner:hover .banner-panel {
-	opacity:1;
-	transition-delay:.2s;
-}*/
