@@ -5,10 +5,14 @@
 	src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
 }
 
+body {
+   font-family: 'Abril Fatface', cursive;
+}
+
 .sad {
 	width: 350px;
 	height: 350px;
-	background: #70AAB5;
+	background:#3D637D;
 	position: absolute;
 	top: 200px;
 }
@@ -16,7 +20,7 @@
 .happy {
 	width: 350px;
 	height: 350px;
-	background: #FBDCAF;
+	background:#FBB820;
 	position: absolute;
 	top: 200px;
 	left:350px;
@@ -25,7 +29,7 @@
 .mad {
 	width: 350px;
 	height: 350px;
-	background: #CB331D;
+	background:#CB331D;
 	position: absolute;
 	top: 200px;
 	left:700px;
@@ -34,7 +38,7 @@
 .peaceful {
 	width: 350px;
 	height: 350px;
-	background: #EFC5EF;
+	background:#C8C0C8;
 	position: absolute;
 	top: 700px;
 	
@@ -43,7 +47,7 @@
 .powerful {
 	width: 350px;
 	height: 350px;
-	background: #FFA756;
+	background:#F25C05;
 	position: absolute;
 	top: 700px;
 	left:350px;
@@ -52,7 +56,7 @@
 .scared {
 	width: 350px;
 	height: 350px;
-	background: #84BF9A;
+	background:#4A4E38;
 	position: absolute;
 	top: 700px;
 	left:700px;

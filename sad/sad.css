@@ -55,7 +55,7 @@ body {
 }
 
 .accordian-item.active h2 {
-	color:white;
+	color:#87B9D9;
 }
 
 .accordian-link {
@@ -101,49 +101,10 @@ body {
   	height: auto;
 }
 
-/*.banner {
-	height:100px;
-	width:200px;
-	position:relative;
-	float:right;
-	margin-right:8px;
-	background-color:#73888D;
-	transition:0.6s;
-	font-size:22px;
-	font-weight:bold;
-}*/
+
 
 .row-item {
 	display:inline-block;
 
 }
 
-/*.banner-arrow-eraser {
-	position:absolute;
-	bottom:0px;
-	width:0;
-	height:0;
-	border-left: 100px solid transparent;
-  	border-right: 100px solid transparent;
-  	border-bottom: 50px solid #E0AC5A;
-}*/
-
-/*.banner:hover {
-	height:300px;
-
-}
-
-.banner-panel {
-	opacity:0;
-	padding:24px 8px 8px;
-	transition:.3s;
-	position:relative;
-	display:flex;
-	justify-content:start;
-	width:auto;
-}
-
-.banner:hover .banner-panel {
-	opacity:1;
-	transition-delay:.2s;
-}*/
