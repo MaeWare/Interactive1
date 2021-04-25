@@ -101,7 +101,7 @@ button{
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 	border-radius: 5px;
-}js
+}
 
 button:hover{
 	background: rgb(200 200 200);
@@ -112,7 +112,7 @@ button:hover{
 /*	DARK MODE STYLES GO HERE */
 
 body.darkmode {
-	background: #D33A03;
+	background:#585A5E;
 	color: white;
 
 	/*	redefine a CSS variable */
