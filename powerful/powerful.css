@@ -108,6 +108,9 @@ button:hover{
 	cursor: pointer;
 }
 
+body {
+	background-color:#F25C05;
+}
 
 /*	DARK MODE STYLES GO HERE */
 
