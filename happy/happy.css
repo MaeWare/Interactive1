@@ -100,17 +100,7 @@ body {
   	height: auto;
 }
 
-/*.banner {
-	height:100px;
-	width:200px;
-	position:relative;
-	float:right;
-	margin-right:8px;
-	background-color:#73888D;
-	transition:0.6s;
-	font-size:22px;
-	font-weight:bold;
-}*/
+
 
 .row-item {
 	display:inline-block;
@@ -132,11 +122,14 @@ button:hover{
 	cursor: pointer;
 }
 
+body {
+	background-color:#FBB820;
+}
 
 /*	DARK MODE STYLES GO HERE */
 
 body.darkmode {
-	background:#87B9D9;
+	background:#ED8728;
 	color: white;
 
 	/*	redefine a CSS variable */

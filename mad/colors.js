@@ -1,5 +1,5 @@
 
-console.log('dark mode');
+alert('dark mode');
 
 $(document).ready(function(){
      $("#darkmode").click(function(){ 

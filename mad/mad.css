@@ -103,7 +103,9 @@ button:hover{
 	cursor: pointer;
 }
 
-
+body {
+	background-color:#CB331D;
+}
 /*	DARK MODE STYLES GO HERE */
 
 body.darkmode {
