@@ -1,5 +1,4 @@
 
-alert('dark mode');
 
 $(document).ready(function(){
      $("#darkmode").click(function(){ 
