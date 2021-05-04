@@ -93,6 +93,10 @@ body {
 
 }
 
+body {
+	background-color:#4A4E38;
+}
+
 button{
 	font-size: 1rem;
 	
@@ -112,7 +116,7 @@ button:hover{
 /*	DARK MODE STYLES GO HERE */
 
 body.darkmode {
-	background:#87B9D9;
+	background:#878670;
 	color: white;
 
 	/*	redefine a CSS variable */
